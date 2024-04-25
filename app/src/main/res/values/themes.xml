@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.SplashScreenDashboard" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/white</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/baseline_dashboard_24</item>
+        <item name="postSplashScreenTheme">@style/Theme.Dashboard</item>
+    </style>
+
+    <style name="Theme.Dashboard" parent="android:Theme.Material.Light.NoActionBar" />
+</resources>
